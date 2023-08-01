@@ -5,11 +5,9 @@ const app = express();
 
 app.use(cors());
 
-//health check
 app.get("/", (request, response) => {
   response.status(200).json({ data: "Service is running!" });
 });
-// get all menu items
 app.get("/items", (request, response) => {
   try {
     const { items } = menuData;
@@ -18,7 +16,6 @@ app.get("/items", (request, response) => {
     response.status(500).json({ error: err.message });
   }
 });
-// get items by id
 app.get("/items/:id", (request, response) => {
   try {
     const { id } = request.params;

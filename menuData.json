@@ -27,7 +27,7 @@
     "name": "Clam Pie",
     "price": 25.75,
     "image": "https://pursuit-pizza-images.s3.amazonaws.com/_f07291eb-f741-4b8a-85b5-bb488306d06c.jpeg",
-    "toppings": ["clam", "white sauce"],
+    "toppings": ["clams", "white sauce"],
     "tags": ["thin_crust", "shellfish"],
     "defaultOrder": 2,
     "shortDescription": "Seafood lovers favorite",
